@@ -1,0 +1,74 @@
+body {
+  background-color: #000000;
+  color: #DDD;
+  font-family: "Consolas";
+  padding: 20px;
+  border: 10px solid #222;
+}
+
+p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+button {
+  font-family: "Consolas";
+  padding: 10px 20px;
+  font-weight: bold;
+  margin-left: 10px;
+  font-size: large;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.container1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 3fr;
+}
+
+.container2 {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+div {
+  padding: 10px;
+}
+
+.container div {
+  border: 1px solid #000; 
+}
+
+.container1 div {
+  border: 1px solid #444; 
+}
+
+.container2 div {
+  border: 1px solid #444; 
+}
+
+img {
+  width: 600px;
+  float: left;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+h4 {
+  border-left: 3px ridge #222;
+  padding: 5px 10px;
+  background-color: #222;
+}
+
+.rate {
+  background-color: #222;
+  border: 3px solid #117733 !important;
+}
+
+#aside {
+  font-size: small;
+  color: #AAA;
+}
